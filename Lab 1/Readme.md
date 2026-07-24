@@ -55,6 +55,7 @@ Lab 1/
 │── Single_Layer_Perceptron.ipynb
 │── Experiment_1.tex
 │── Experiment_1.pdf
+│── data_banknote_authentication.txt
 │── Histogram.eps
 │── Correlation_Heatmap.eps
 │── Scatter_Plot.eps
