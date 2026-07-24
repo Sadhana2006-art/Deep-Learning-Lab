@@ -141,15 +141,14 @@ Additional analyses include:
 
 ---
 
-## Technologies Used
+## References
 
-- Python
-- NumPy
-- Pandas
-- Matplotlib
-- Seaborn
-- Scikit-learn
-- Google Colab
+1. Rosenblatt, F. (1958). *The Perceptron: A Probabilistic Model for Information Storage and Organization in the Brain*. Psychological Review.
+2. Goodfellow, I., Bengio, Y., & Courville, A. (2016). *Deep Learning*. MIT Press.
+3. Bishop, C. M. (2006). *Pattern Recognition and Machine Learning*. Springer.
+4. Haykin, S. (2009). *Neural Networks and Learning Machines* (3rd ed.). Pearson.
+5. UCI Machine Learning Repository. *Banknote Authentication Dataset*. https://archive.ics.uci.edu/ml/datasets/banknote+authentication
+6. Scikit-learn Documentation. *Perceptron*. https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.Perceptron.html
 
 ---
 
