@@ -1,8 +1,5 @@
 # Experiment 2: Implementation of a Multi-Layer Perceptron (MLP) for Multi-Class Image Classification
 
-This project implements a **Multi-Layer Perceptron (MLP)** using **TensorFlow/Keras** for multi-class image classification on the **Fashion-MNIST** dataset. The experiment includes data preprocessing, model training, evaluation, and automated hyperparameter optimization using **RandomizedSearchCV** with the **SciKeras** wrapper.
-
----
 ## Objective
 
 The objective of this experiment is to implement a Multi-Layer Perceptron (MLP) using TensorFlow/Keras for multi-class image classification on the Fashion-MNIST dataset. The experiment covers image preprocessing, model construction, training, evaluation, and automated hyperparameter optimization using RandomizedSearchCV with the SciKeras wrapper.
