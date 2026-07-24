@@ -230,11 +230,11 @@ The notebook generates the following figures:
 
 ## References
 
-- TensorFlow Documentation
-- Keras Documentation
-- SciKeras Documentation
-- Fashion-MNIST Dataset
-- Deep Learning by Goodfellow, Bengio and Courville
+1. Goodfellow et al., *Deep Learning*, MIT Press, 2016.
+2. Bishop, *Pattern Recognition and Machine Learning*, Springer, 2006.
+3. Haykin, *Neural Networks and Learning Machines*, Pearson, 2009.
+4. Fashion-MNIST Dataset.
+5. TensorFlow/Keras Documentation.
 
 ---
 
