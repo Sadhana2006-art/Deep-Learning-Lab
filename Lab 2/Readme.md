@@ -2,7 +2,7 @@
 
 ## Objective
 
-The objective of this experiment is to implement a Multi-Layer Perceptron (MLP) using TensorFlow/Keras for multi-class image classification on the Fashion-MNIST dataset. The experiment covers image preprocessing, model construction, training, evaluation, and automated hyperparameter optimization using RandomizedSearchCV with the SciKeras wrapper.
+The objective of this experiment is to implement a Multi-Layer Perceptron (MLP) using TensorFlow/Keras for multi-class image classification on the Fashion-MNIST dataset. The experiment covers image preprocessing, model construction, training, evaluation, and automated hyperparameter optimization using RandomizedSearchCV with the SciKeras wrapper. As an additional exercise, the Single Layer Perceptron (SLP) learning algorithm is implemented for the XOR gate to demonstrate its inability to converge on a non-linearly separable problem.
 
 ---
 
@@ -31,15 +31,35 @@ Classes:
 
 ## Features
 
+## Main Experiment
+
 - Load and explore the Fashion-MNIST dataset
 - Display sample images and class distribution
-- Image preprocessing (flattening, normalization, one-hot encoding)
+- Image preprocessing
+  - Flattening
+  - Normalization
+  - One-hot encoding
 - Build a baseline MLP model
 - Train and evaluate the baseline model
 - Perform automated hyperparameter optimization using RandomizedSearchCV
 - Retrain the optimized model
 - Compare baseline and optimized models
-- Generate performance plots and confusion matrix
+- Generate performance plots
+
+## Additional Exercise
+
+Implementation of the **Single Layer Perceptron (SLP)** for the **XOR Gate**.
+
+The implementation includes:
+
+- Weight initialization
+- Bias initialization
+- Step activation function
+- Perceptron learning rule
+- Weight updates after each misclassification
+- Decision boundary after each weight update
+- Analysis of the non-convergence behaviour
+- Demonstration of why the XOR problem cannot be solved using a Single Layer Perceptron
 
 ---
 
@@ -47,7 +67,7 @@ Classes:
 
 ```
 Lab 2/
-│── Multilayer_Perceptron.ipynb     # Main Jupyter Notebook
+│── Multilayer_Perceptron.ipynb     # Fashion-MNIST classification and additional XOR experiment
 │── Experiment_2.tex                # LaTeX Report
 │── Experiment_2.pdf                # Compiled Report
 │── README.md
@@ -120,25 +140,33 @@ If using **Google Colab**:
 
 ## Workflow
 
-Run the notebook from top to bottom.
+## Fashion-MNIST Classification
 
-The notebook performs the following tasks:
+- Import required libraries
+- Load the Fashion-MNIST dataset
+- Display sample images
+- Plot class distribution
+- Flatten the images
+- Normalize pixel values
+- Convert labels to one-hot encoding
+- Build the baseline MLP
+- Train the model
+- Evaluate the model
+- Generate evaluation metrics
+- Perform RandomizedSearchCV hyperparameter optimization
+- Retrain the optimized model
+- Compare baseline and optimized models
+- Generate all required plots
 
-1. Import required libraries
-2. Load the Fashion-MNIST dataset
-3. Display sample images
-4. Plot class distribution
-5. Flatten the images
-6. Normalize pixel values
-7. Convert labels to one-hot encoding
-8. Build the baseline MLP
-9. Train the model
-10. Evaluate the model
-11. Generate evaluation metrics
-12. Perform RandomizedSearchCV hyperparameter optimization
-13. Retrain the optimized model
-14. Compare baseline and optimized models
-15. Generate all required plots
+## Additional Exercise – XOR using Single Layer Perceptron
+
+- Initialize weights and bias
+- Implement the Step Activation Function
+- Apply the Perceptron Learning Rule
+- Display weights after each update
+- Plot the decision boundary after each weight update
+- Analyze the oscillating decision boundary
+- Demonstrate the non-convergence of the perceptron on the XOR dataset
 
 ---
 
@@ -194,6 +222,10 @@ The notebook reports:
 - Cross-Validation Accuracy
 - Testing Accuracy
 
+### Additional Exercise
+
+The Single Layer Perceptron fails to converge on the XOR dataset because the classes are **not linearly separable**. The weights continue to change during training, and the decision boundary oscillates without reaching a stable solution, demonstrating the fundamental limitation of the Single Layer Perceptron.
+
 ---
 
 ## Generated Outputs
@@ -209,6 +241,7 @@ The notebook generates the following figures:
 - Confusion Matrix
 - Hyperparameter Search Results
 - Baseline vs Optimized Accuracy Comparison
+- XOR Gate Decision Boundaries
 
 ---
 
@@ -241,7 +274,3 @@ The notebook generates the following figures:
 ## Author
 
 **Sadhana Sundaresan**
-
-B.Tech Artificial Intelligence & Data Science
-
-Shiv Nadar University Chennai
