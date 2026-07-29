@@ -52,10 +52,10 @@ This experiment implements a **Single Layer Perceptron** from scratch to perform
 
 ```
 Lab 1/
-│── Single_Layer_Perceptron.ipynb
-│── Experiment_1.tex
-│── Experiment_1.pdf
-│── data_banknote_authentication.txt
+│── Single_Layer_Perceptron.ipynb     # Main notebook
+│── Experiment_1.tex                  # LaTeX source code of the experiment report
+│── Experiment_1.pdf                  # Compiled experiment report
+│── data_banknote_authentication.txt  # Banknote Authentication dataset
 │── Histogram.eps
 │── Correlation_Heatmap.eps
 │── Scatter_Plot.eps
@@ -65,6 +65,9 @@ Lab 1/
 │── Weight_Evolution.eps
 │── Bias_Evolution.eps
 │── Learning_Rate_Comparison.eps
+│── OR_Gate_Decision_Boundaries.eps   # Additional task
+│── AND_Gate_Decision_Boundaries.eps  # Additional task
+│── NOT_Gate_Decision_Boundaries.eps  # Additional task
 │── README.md
 ```
 
