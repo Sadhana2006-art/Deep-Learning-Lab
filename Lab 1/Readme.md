@@ -2,7 +2,7 @@
 
 ## Objective
 
-This experiment implements a **Single Layer Perceptron** from scratch to perform binary classification on the **Banknote Authentication Dataset**. The objective is to understand the working of an artificial neuron, the perceptron learning algorithm, and the effect of different learning rates on model performance.
+This experiment implements a **Single Layer Perceptron** from scratch to perform binary classification on the **Banknote Authentication Dataset**. The objective is to understand the working of an artificial neuron, the perceptron learning algorithm, and the effect of different learning rates on model performance. In addition, the perceptron learning algorithm is implemented for the OR, AND, and NOT logic gates, showing the weight updates and decision boundary after each update.
 
 ---
 
@@ -142,6 +142,12 @@ Additional analyses include:
 - Bias Evolution
 - Learning Rate Comparison
 
+The additional logic gate experiments demonstrate that:
+
+- The OR gate converges after a few weight updates.
+- The AND gate converges after multiple updates with a final linear decision boundary.
+- The NOT gate converges quickly because it involves a single input feature.
+
 ---
 
 ## References
@@ -158,5 +164,3 @@ Additional analyses include:
 ## Author
 
 **Sadhana Sundaresan**
-
-B.Tech Artificial Intelligence and Data Science
